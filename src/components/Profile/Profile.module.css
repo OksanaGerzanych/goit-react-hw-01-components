@@ -1,0 +1,71 @@
+.profile {
+display: flex;
+flex-direction: column;
+background-color: rgba(255, 255, 255, 0.954);
+box-shadow: 0 0 10px #c6cccced;
+border-radius: 10px;
+width: 320px;
+}
+
+.description {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+
+background-color: rgba(255, 255, 255, 0.904);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom: 2px solid #7e6f7498;
+
+}
+.avatar {
+background-color: rgba(192, 185, 185, 0.425);
+border-radius: 50%;
+padding: 20px 10px 0px;
+margin-bottom: 30px;
+margin-top: 10px;
+}
+.name {
+font-size: 22px;
+font-weight: bold;
+}
+.tag {
+font-size: 16px;
+color: rgba(66, 62, 62, 0.801);
+}
+.location {
+font-size: 16px;
+color: rgba(66, 62, 62, 0.801);
+margin-bottom: 30px;
+}
+.stats {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 40px;
+background-color: rgba(196, 187, 187, 0.945);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+
+.stats > li {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label{
+margin-top: 15px;
+font-size: 16px;
+color: rgba(66, 62, 62, 0.801);
+
+}
+.quantity {
+font-size: 16px;
+font-weight: bold;
+margin-bottom: 15px;
+
+}
