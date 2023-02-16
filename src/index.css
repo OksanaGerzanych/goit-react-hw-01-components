@@ -18,8 +18,9 @@ body {
 ul {
 list-style: none;
 }
-p, ul, h1 {
+p, ul, h1, h2 {
   margin: 0px;
+  padding: 0px;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
