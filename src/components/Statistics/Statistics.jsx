@@ -8,7 +8,7 @@ import { Percentage } from './Statistics.styled';
 export const Statistics = ({ title, stats }) => {
   return (
     <StatisticsBox>
-      { title && <Title>{title}</Title>}
+      { title && (<Title>{title}</Title>)}
       <StatList>
         {stats.map(({ id, label, percentage }) => {
           return (
